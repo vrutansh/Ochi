@@ -7,9 +7,11 @@ function Landing() {
           {["We Create", "Eye Opening","Presentations"].map((item,index)=>(
               <div className="masker">
                <div className='w-fit flex items-center'>
+                { index === 1 && (<div className='w-[9.2vw]'></div>) }
                <h1 key={index} className="uppercase text-[9.5vw] leading-[7.5vw] tracking-normal font-lg font-bold font-['Test_Founders_Grotesk_X-Cond_SmBd']">{item}</h1>
                </div>
            </div>
+          
           ))}
         </div>
         <div className='border-t-[1px] border-zinc-700 mt-32 flex justify-between items-center py-5 px-20'>
