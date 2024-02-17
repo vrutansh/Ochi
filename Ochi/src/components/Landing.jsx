@@ -3,18 +3,22 @@ import { FaArrowUpLong } from "react-icons/fa6";
 function Landing() {
   return (
     <div className="w-full  bg-zinc-900 pt-2 ">
-        <div className="textstructue mt-52  px-20">
+        <div className="textstructue mt-52 px-20">
           {["We Create", "Eye Opening","Presentations"].map((item,index)=>(
-              <div className="masker">
-               <div className='w-fit flex items-center'>
-                { index === 1 && (<div className='w-[9.2vw]'></div>) }
-               <h1 key={index} className="uppercase text-[9.5vw] leading-[7.5vw] tracking-normal font-lg font-bold font-['Test_Founders_Grotesk_X-Cond_SmBd']">{item}</h1>
+              <div className="masker ">
+
+               <div className='w-fit flex overflow-hidden'>
+                 
+                { index === 1 && (<div className='w-[9.2vw] mr-[.76vw] rounded-md mt-9 h-[6vw] relative -top-[1vw] bg-red-500'></div>) }
+
+
+               <h1 key={index} className="flex items-center h-full uppercase text-[9.5vw] leading-[7.8vw] tracking-normal font-lg font-bold font-['Test_Founders_Grotesk_X-Cond_SmBd']">{item}</h1>
                </div>
            </div>
           
           ))}
         </div>
-        <div className='border-t-[1px] border-zinc-700 mt-32 flex justify-between items-center py-5 px-20'>
+        <div className='border-t-[1px] border-zinc-700 mt-20 flex justify-between items-center py-5 px-20'>
 
           {["For public and private companies","From the Pitch to IPO"].map((items,index)=>(
              <p key={index} className='text-md font-light tracking-tight leading-none'>{items}</p>
