@@ -4,6 +4,7 @@ import Landing from './components/Landing';
 import Marquee from './components/Marquee';
 import About from './components/About';
 import Eyes from './components/Eyes';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Marquee/>
       <About/>
       <Eyes/> 
-
+      <Projects/>
     </div>
   )
 }
