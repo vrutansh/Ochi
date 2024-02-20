@@ -12,7 +12,7 @@ function Projects() {
               
                 <div className="cardcontainer relative w-1/2 h-[74vh]">
 
-                 <h1 className='absolute left-full text-[#135b82] -translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-8xl leading-none tracking-tighter font-["poppins"]'>
+                 <h1 className='absolute left-full text-[#004D43] -translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-8xl leading-none tracking-tighter font-["poppins"]'>
                  {"FYDE".split("").map((item, index)=><span className=''>{item}</span>)}
                  </h1>
 
@@ -23,7 +23,7 @@ function Projects() {
                 
 
                 <div className="cardcontainer relative w-1/2 h-[74vh] ">
-                <h1 className='absolute right-full text-[#135b82] translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-8xl leading-none tracking-tighter font-["poppins"]'>
+                <h1 className='absolute right-full text-[#004D43] translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-8xl leading-none tracking-tighter font-["poppins"]'>
                     {"TRAWA".split("").map((item, index)=><span className=''>{item}</span>)}
                 </h1>
 
@@ -38,7 +38,7 @@ function Projects() {
               
                 <div className="cardcontainer relative w-1/2 h-[74vh]">
 
-                 <h1 className='absolute left-full text-[#135b82] -translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-8xl leading-none tracking-tighter font-["poppins"]'>
+                 <h1 className='absolute left-full text-[#004D43] -translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-8xl leading-none tracking-tighter font-["poppins"]'>
                  {"OFFICEVIBE".split("").map((item, index)=><span className=''>{item}</span>)}
                  </h1>
 
@@ -48,7 +48,7 @@ function Projects() {
                 </div>
 
                 <div className="cardcontainer relative w-1/2 h-[74vh] ">
-                <h1 className='absolute right-full text-[#135b82] translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-8xl leading-none tracking-tighter font-["poppins"]'>
+                <h1 className='absolute right-full text-[#004D43] translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-8xl leading-none tracking-tighter font-["poppins"]'>
                     {"PLANETLY".split("").map((item, index)=><span className=''>{item}</span>)}
                 </h1>
 
