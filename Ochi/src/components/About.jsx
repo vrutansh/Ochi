@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 function About() {
+  
   return (
     <div className='w-full py-20 px-20 bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl text-zinc-800'>
         <h1 className='font-["Neue_Montreal"] text-[4vw] leading-none tracking-tight'>
@@ -21,5 +22,5 @@ function About() {
     </div>
   )
 }
-
+ 
 export default About
