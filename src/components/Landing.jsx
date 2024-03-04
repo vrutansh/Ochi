@@ -16,7 +16,7 @@ function Landing() {
                    initial={{width: 0}} 
                    animate={{width: "9.2vw"}} 
                    transition={{ease: [0.76, 0, 0.24, 1], duration:1}} 
-                   className='w-[9.2vw] mr-[.76vw] rounded-md mt-9 h-[6vw] relative -top-[1vw]  overflow-hidden'>
+                   className='w-[9.2vw] mr-[.76vw] rounded-md mt-9 h-[6vw] relative -top-[1.4vw]  overflow-hidden'>
                     <img className='w-full h-full fit-cover' src="https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg" alt="" />
                    </motion.div>) }
 
